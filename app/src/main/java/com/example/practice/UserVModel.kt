@@ -2,8 +2,8 @@ package com.example.practice
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import api.DataState
-import api.RetrofitAPI
+import com.example.practice.api.DataState
+import com.example.practice.api.RetrofitAPI
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch

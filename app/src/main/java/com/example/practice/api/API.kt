@@ -1,4 +1,4 @@
-package api
+package com.example.practice.api
 
 import retrofit2.http.GET
 

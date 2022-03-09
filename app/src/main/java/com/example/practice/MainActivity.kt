@@ -22,8 +22,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import api.DataState
-import api.UserModel
+import com.example.practice.api.DataState
+import com.example.practice.api.UserModel
 import androidx.compose.runtime.getValue
 
 

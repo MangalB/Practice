@@ -1,4 +1,4 @@
-package api
+package com.example.practice.api
 
 import com.google.gson.annotations.SerializedName
 
@@ -18,6 +18,13 @@ data class UserModel(
     @SerializedName("company")
     val company: Company
 ) {
+
+    override fun equals(other: Any?): Boolean {
+        val otherUser = other as UserModel
+        return id == otherUser.id && name.contentEquals(otherUser.name) && email.contentEquals(otherUser.email)
+                && address.city.contentEquals(otherUser.address.city) && company.companyName.contentEquals(otherUser.company.companyName)
+    }
+
     class Address(
         @SerializedName("city")
         val city: String

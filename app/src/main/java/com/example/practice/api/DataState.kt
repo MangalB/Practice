@@ -1,4 +1,4 @@
-package api
+package com.example.practice.api
 
 sealed class DataState{
     object Loading: DataState()
